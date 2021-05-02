@@ -1,0 +1,32 @@
+/** @format */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	background-color: black;
+	margin: 0px;
+	font-family: 'Montserrat', 'Avenir';
+}
+.main {
+	margin: 20px auto;
+	max-width: 600px;
+	background-color: white;
+}
+
+.square {
+	width: 3%;
+	padding-bottom: 3%;
+	margin: 0.6%;
+	float: left;
+	background-color: #232323;
+	border-radius: 50%;
+	transition: background 3s;
+	-webkit-transition: background 3s;
+	-moz-transition: background 3s;
+}
+.square:hover {
+	transition-duration: 0s;
+}
